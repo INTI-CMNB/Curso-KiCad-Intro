@@ -84,13 +84,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 3850 5150 3850
 Wire Wire Line
-	5550 3850 6700 3850
-Wire Wire Line
 	6400 3850 6400 4000
 Wire Wire Line
 	6400 4500 6400 4700
-Wire Wire Line
-	5550 4700 6700 4700
 Wire Wire Line
 	5150 4700 4900 4700
 Wire Wire Line
@@ -128,29 +124,16 @@ F 3 "" H 4350 4200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 4700 4200
-$Comp
-L R R2
-U 1 1 56390399
-P 6700 4250
-F 0 "R2" V 6780 4250 50  0000 C CNN
-F 1 "100K" V 6700 4250 50  0000 C CNN
-F 2 "footprints_ej1:R3-LARGE_PADS" H 7500 4500 60  0001 C CNN
-F 3 "" H 6700 4250 60  0000 C CNN
-	1    6700 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3850 6700 4000
-Connection ~ 6400 3850
-Wire Wire Line
-	6700 4700 6700 4500
-Connection ~ 6400 4700
 Text Notes 4850 3100 0    60   ~ 0
-CIRCUITO CONDENSADOR DE FLUJO
+CIRCUITO EXPERIMENTAL
 Wire Notes Line
-	6850 4100 7150 3750
+	6500 4100 6800 3750
 Wire Notes Line
-	7150 3750 7400 3750
-Text Notes 7450 3800 0    60   Italic 0
-Resistor paralelo
+	6800 3750 7050 3750
+Text Notes 7100 3800 0    60   Italic 0
+Resistor serie
+Wire Wire Line
+	5550 3850 6400 3850
+Wire Wire Line
+	6400 4700 5550 4700
 $EndSCHEMATC

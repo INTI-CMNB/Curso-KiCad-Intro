@@ -1,0 +1,6 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1";"C_Rect_L7_W3.5_P5";1;"100 nF";;;
+2;"D1";"LED-3MM";1;"LED ROJO 5mm";;;
+3;"D2";"Diode_DO-35_SOD27_Horizontal_RM10";1;"1N4148";;;
+4;"K1";"bornier3";1;"CONN_3";;;
+5;"R1";"R3-LARGE_PADS";1;"100K";;;

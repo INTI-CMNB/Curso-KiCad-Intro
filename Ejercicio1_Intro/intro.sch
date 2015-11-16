@@ -1,34 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:intro-cache
 EELAYER 25 0
 EELAYER END
@@ -66,44 +38,22 @@ F 3 "" H 6400 4250 60  0000 C CNN
 	1    6400 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L DIODE D2
-U 1 1 5638F55C
-P 5350 4700
-F 0 "D2" H 5350 4800 40  0000 C CNN
-F 1 "1N4148" H 5350 4600 40  0000 C CNN
-F 2 "footprints_ej1:Diode_DO-35_SOD27_Horizontal_RM10" H 5350 4700 60  0001 C CNN
-F 3 "" H 5350 4700 60  0000 C CNN
-	1    5350 4700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4900 4100 4700 4100
 Wire Wire Line
 	4900 3550 4900 4100
 Wire Wire Line
-	4900 3850 5150 3850
+	4900 3850 5200 3850
 Wire Wire Line
-	6400 3850 6400 4000
+	6400 3850 6400 4100
 Wire Wire Line
-	6400 4500 6400 4700
+	6400 4700 6400 4400
 Wire Wire Line
-	5150 4700 4900 4700
+	4900 4700 5200 4700
 Wire Wire Line
 	4900 4700 4900 4300
 Wire Wire Line
 	4900 4300 4700 4300
-$Comp
-L LED D1
-U 1 1 5638F7A0
-P 5350 3550
-F 0 "D1" H 5350 3650 50  0000 C CNN
-F 1 "LED ROJO" H 5350 3450 50  0000 C CNN
-F 2 "footprints_ej1:LED-3MM" H 5350 3550 60  0001 C CNN
-F 3 "" H 5350 3550 60  0000 C CNN
-	1    5350 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 3550 5650 3550
 Wire Wire Line
@@ -133,7 +83,29 @@ Wire Notes Line
 Text Notes 7100 3800 0    60   Italic 0
 Resistor serie
 Wire Wire Line
-	5550 3850 6400 3850
+	5500 3850 6400 3850
 Wire Wire Line
-	6400 4700 5550 4700
+	5500 4700 6400 4700
+$Comp
+L LED D1
+U 1 1 564A13E0
+P 5350 3550
+F 0 "D1" H 5350 3650 50  0000 C CNN
+F 1 "LED ROJO 5mm" H 5350 3400 50  0000 C CNN
+F 2 "footprints_ej1:LED-3MM" H 5350 3550 60  0001 C CNN
+F 3 "" H 5350 3550 60  0000 C CNN
+	1    5350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 5638F55C
+P 5350 4700
+F 0 "D2" H 5350 4800 40  0000 C CNN
+F 1 "1N4148" H 5350 4600 40  0000 C CNN
+F 2 "footprints_ej1:Diode_DO-35_SOD27_Horizontal_RM10" H 5350 4700 60  0001 C CNN
+F 3 "" H 5350 4700 60  0000 C CNN
+	1    5350 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -83,9 +83,9 @@ Wire Notes Line
 Text Notes 7100 3800 0    60   Italic 0
 Resistor serie
 Wire Wire Line
-	5500 3850 6400 3850
+	5500 3850 6700 3850
 Wire Wire Line
-	5500 4700 6400 4700
+	5500 4700 6700 4700
 $Comp
 L LED D1
 U 1 1 564A13E0
@@ -108,4 +108,27 @@ F 3 "" H 5350 4700 60  0000 C CNN
 	1    5350 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R2
+U 1 1 564A3B91
+P 6700 4250
+F 0 "R2" V 6780 4250 50  0000 C CNN
+F 1 "100K" V 6700 4250 50  0000 C CNN
+F 2 "footprints_ej1:R3-LARGE_PADS" V 6630 4250 30  0001 C CNN
+F 3 "" H 6700 4250 30  0000 C CNN
+	1    6700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3850 6700 4100
+Connection ~ 6400 3850
+Wire Wire Line
+	6700 4700 6700 4400
+Connection ~ 6400 4700
+Wire Notes Line
+	6800 4150 7000 3950
+Wire Notes Line
+	7000 3950 7200 3950
+Text Notes 7250 4000 0    60   ~ 0
+Resistor agregado
 $EndSCHEMATC

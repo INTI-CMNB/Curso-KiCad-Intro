@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/diego/git/Curso_Kicad/Ejercicio1_Intro/intro.sch)
-    (date "lun 16 nov 2015 14:38:42 ART")
+    (date "lun 16 nov 2015 17:27:26 ART")
     (tool "Eeschema (2015-09-12 BZR 6188)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -44,8 +44,50 @@
       (footprint footprints_ej1:Diode_DO-35_SOD27_Horizontal_RM10)
       (libsource (lib device) (part D))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5638F55C)))
+      (tstamp 5638F55C))
+    (comp (ref R2)
+      (value 100K)
+      (footprint footprints_ej1:R3-LARGE_PADS)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 564A3B91)))
   (libparts
+    (libpart (lib device) (part C)
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part D)
+      (footprints
+        (fp Diode_*)
+        (fp D-Pak_TO252AA)
+        (fp *SingleDiode)
+        (fp *_Diode_*)
+        (fp *SingleDiode*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) D))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib device) (part R)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part LED)
       (footprints
         (fp LED-3MM)
@@ -61,32 +103,6 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part D)
-      (footprints
-        (fp Diode_*)
-        (fp D-Pak_TO252AA)
-        (fp *SingleDiode)
-        (fp *_Diode_*)
-        (fp *SingleDiode*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) D))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib device) (part C)
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib intro-cache) (part CONN_3)
       (fields
         (field (name Reference) K)
@@ -94,36 +110,28 @@
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))
-        (pin (num 3) (name P3) (type passive))))
-    (libpart (lib device) (part R)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 3) (name P3) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri libs/device.lib))
     (library (logical intro-cache)
-      (uri /home/diego/git/Curso_Kicad/Ejercicio1_Intro/intro-cache.lib)))
+      (uri /home/diego/git/Curso_Kicad/Ejercicio1_Intro/intro-cache.lib))
+    (library (logical device)
+      (uri libs/device.lib)))
   (nets
-    (net (code 1) (name "Net-(D2-Pad2)")
-      (node (ref D2) (pin 2))
-      (node (ref R1) (pin 2)))
-    (net (code 2) (name "Net-(C1-Pad2)")
-      (node (ref C1) (pin 2))
-      (node (ref K1) (pin 1))
-      (node (ref D1) (pin 2)))
-    (net (code 3) (name "Net-(C1-Pad1)")
-      (node (ref C1) (pin 1))
-      (node (ref R1) (pin 1))
-      (node (ref D1) (pin 1)))
-    (net (code 4) (name "Net-(K1-Pad2)")
+    (net (code 1) (name "Net-(K1-Pad2)")
       (node (ref K1) (pin 2)))
-    (net (code 5) (name "Net-(D2-Pad1)")
+    (net (code 2) (name "Net-(D2-Pad1)")
       (node (ref D2) (pin 1))
-      (node (ref K1) (pin 3)))))
+      (node (ref K1) (pin 3)))
+    (net (code 3) (name "Net-(C1-Pad2)")
+      (node (ref K1) (pin 1))
+      (node (ref C1) (pin 2))
+      (node (ref D1) (pin 2)))
+    (net (code 4) (name "Net-(D2-Pad2)")
+      (node (ref R2) (pin 2))
+      (node (ref R1) (pin 2))
+      (node (ref D2) (pin 2)))
+    (net (code 5) (name "Net-(C1-Pad1)")
+      (node (ref R1) (pin 1))
+      (node (ref D1) (pin 1))
+      (node (ref R2) (pin 1))
+      (node (ref C1) (pin 1)))))

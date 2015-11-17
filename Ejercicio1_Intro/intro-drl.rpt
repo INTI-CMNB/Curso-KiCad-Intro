@@ -1,0 +1,18 @@
+Drill report for /home/diego/git/Curso_Kicad/Ejercicio1_Intro/intro.kicad_pcb
+Created on lun 16 nov 2015 18:23:57 ART
+
+Drill report for plated through holes :
+    T1  0,70mm  0,028"  (2 holes)
+    T2  0,80mm  0,031"  (2 holes)
+    T3  0,81mm  0,032"  (6 holes)
+    T4  1,00mm  0,039"  (2 holes)
+    T5  1,52mm  0,060"  (3 holes)
+
+Total plated holes count 15
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+

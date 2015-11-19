@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ej2)(type KiCad)(uri "$(KIPRJMOD)/ej2.pretty")(options "")(descr ""))
+)

@@ -1,8 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:sp3232e
-LIBS:c
-LIBS:power
-LIBS:device
+LIBS:ej2
 LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END
@@ -24,7 +21,7 @@ U 1 1 564E39A4
 P 5300 2950
 F 0 "XA1" H 5600 3350 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5650 1250 60  0000 C CNN
-F 2 "" H 5300 2950 60  0000 C CNN
+F 2 "ej2:Conn_Poncho_Derecha" H 5300 2950 60  0001 C CNN
 F 3 "" H 5300 2950 60  0000 C CNN
 	1    5300 2950
 	1    0    0    -1  
@@ -139,4 +136,24 @@ F 3 "" H 6650 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6650 2750
+Wire Notes Line
+	4750 2400 4600 2250
+Wire Notes Line
+	4600 2250 4400 2250
+Wire Notes Line
+	4000 3650 3900 3650
+Wire Notes Line
+	3900 3650 3900 4600
+Wire Notes Line
+	3900 4600 4000 4600
+Text Notes 3250 3950 0    60   ~ 0
+Etiquetas\nde Jerarquía
+Text Notes 4050 2200 0    60   ~ 0
+Etiqueta \nglobal
+Wire Notes Line
+	6850 2500 6950 2400
+Wire Notes Line
+	6950 2400 7150 2400
+Text Notes 7200 2450 0    60   ~ 0
+Power\nFlag
 $EndSCHEMATC

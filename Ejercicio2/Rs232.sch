@@ -1,8 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:sp3232e
-LIBS:c
-LIBS:power
-LIBS:device
+LIBS:ej2
 LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END
@@ -24,7 +21,7 @@ U 1 1 564E1AB2
 P 8150 4550
 F 0 "J301" H 8150 5100 70  0000 C CNN
 F 1 "DB9-F" H 8150 4000 70  0000 C CNN
-F 2 "" H 8150 4550 60  0000 C CNN
+F 2 "ej2:DB9_F_TH" H 8150 4550 60  0001 C CNN
 F 3 "" H 8150 4550 60  0000 C CNN
 	1    8150 4550
 	1    0    0    -1  
@@ -61,7 +58,7 @@ U 1 1 564F3166
 P 6100 3550
 F 0 "C303" V 6000 3650 40  0000 L CNN
 F 1 "100nF" V 6000 3900 40  0000 L CNN
-F 2 "" H 6138 3400 30  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6138 3400 30  0001 C CNN
 F 3 "" H 6100 3550 60  0000 C CNN
 	1    6100 3550
 	0    1    1    0   
@@ -72,7 +69,7 @@ U 1 1 564F3197
 P 6100 4050
 F 0 "C304" V 6000 4150 40  0000 L CNN
 F 1 "100nF" V 6000 4400 40  0000 L CNN
-F 2 "" H 6138 3900 30  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6138 3900 30  0001 C CNN
 F 3 "" H 6100 4050 60  0000 C CNN
 	1    6100 4050
 	0    1    1    0   
@@ -83,7 +80,7 @@ U 1 1 564F31BE
 P 3700 3350
 F 0 "C301" H 3700 3450 40  0000 L CNN
 F 1 "100nF" H 3706 3265 40  0000 L CNN
-F 2 "" H 3738 3200 30  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3738 3200 30  0001 C CNN
 F 3 "" H 3700 3350 60  0000 C CNN
 	1    3700 3350
 	1    0    0    -1  
@@ -94,7 +91,7 @@ U 1 1 564F3203
 P 3700 3850
 F 0 "C302" H 3700 3950 40  0000 L CNN
 F 1 "100nF" H 3706 3765 40  0000 L CNN
-F 2 "" H 3738 3700 30  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3738 3700 30  0001 C CNN
 F 3 "" H 3700 3850 60  0000 C CNN
 	1    3700 3850
 	1    0    0    -1  
@@ -105,7 +102,7 @@ U 1 1 564F3242
 P 7000 2950
 F 0 "C305" H 7000 3050 40  0000 L CNN
 F 1 "100nF" H 7006 2865 40  0000 L CNN
-F 2 "" H 7038 2800 30  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7038 2800 30  0001 C CNN
 F 3 "" H 7000 2950 60  0000 C CNN
 	1    7000 2950
 	1    0    0    -1  
@@ -879,22 +876,6 @@ EndData
 $EndBitmap
 Text Notes 8300 5350 2    60   ~ 0
 TIPO DCE
-Wire Wire Line
-	4150 4450 2900 4450
-Text HLabel 2900 4450 0    60   Output ~ 0
-TXD
-Text HLabel 2900 4250 0    60   Input ~ 0
-RXD
-Wire Wire Line
-	4150 4250 2900 4250
-Wire Wire Line
-	4150 4350 2900 4350
-Text HLabel 2900 4350 0    60   Input ~ 0
-CTS
-Text HLabel 2900 4550 0    60   Output ~ 0
-RTS
-Wire Wire Line
-	4150 4550 2900 4550
 NoConn ~ 7700 4250
 NoConn ~ 7700 4350
 NoConn ~ 7700 4850
@@ -915,24 +896,13 @@ Wire Wire Line
 Wire Wire Line
 	7450 4150 7450 4200
 $Comp
-L R R301
-U 1 1 564F7B76
-P 6100 3150
-F 0 "R301" V 6180 3150 50  0000 C CNN
-F 1 "R" V 6100 3150 50  0000 C CNN
-F 2 "" H 6100 3150 60  0000 C CNN
-F 3 "" H 6100 3150 60  0000 C CNN
-	1    6100 3150
-	0    1    1    0   
-$EndComp
-$Comp
 L SP3232 U301
 U 1 1 564F30D5
 P 4950 3850
 F 0 "U301" H 4950 4700 70  0000 C CNN
-F 1 "SP3232" H 4950 3000 70  0000 C CNN
-F 2 "" H 4950 3850 60  0000 C CNN
-F 3 "" H 4950 3850 60  0000 C CNN
+F 1 "SP3232ECN" H 4950 2950 70  0000 C CNN
+F 2 "ej2:SP3232ECN-SOIC16N" H 4950 3850 60  0001 C CNN
+F 3 "http://www.digikey.com/product-detail/es/SP3232ECN-L%2FTR/1016-1803-1-ND/3586520" H 4950 3850 60  0001 C CNN
 	1    4950 3850
 	1    0    0    -1  
 $EndComp
@@ -943,8 +913,56 @@ Wire Wire Line
 Wire Wire Line
 	6550 2700 6550 3150
 Wire Wire Line
-	6550 3150 6350 3150
+	6550 3150 5750 3150
 Connection ~ 7000 2700
+Wire Notes Line
+	6100 3000 6100 2800
+Wire Notes Line
+	6100 2800 5800 2550
+Text Notes 5300 2500 0    60   ~ 0
+Colocar un resistor para ejemplificar\nverificación del ERC
+Wire Notes Line
+	5000 4850 5000 5250
+Wire Notes Line
+	5000 5250 4650 5550
+Text Notes 4200 5950 0    60   ~ 0
+DIA 3: Hacer como multiparte\nA) Alimentación.\nB) Banco de capacitores.\nC) Buffers.
+Text Label 3550 4250 0    60   ~ 0
+RS2
+Text Label 3550 4350 0    60   ~ 0
+RS3
+Text HLabel 2300 3900 0    60   BiDi ~ 0
+RS[1..4]
 Wire Wire Line
-	5850 3150 5750 3150
+	4150 4250 3300 4250
+Wire Wire Line
+	3300 4350 4150 4350
+Wire Wire Line
+	4150 4450 3300 4450
+Wire Wire Line
+	3300 4550 4150 4550
+Entry Wire Line
+	3200 4150 3300 4250
+Entry Wire Line
+	3200 4250 3300 4350
+Entry Wire Line
+	3200 4350 3300 4450
+Entry Wire Line
+	3200 4450 3300 4550
+Wire Bus Line
+	3200 4450 3200 3900
+Wire Bus Line
+	3200 3900 2300 3900
+Text Label 3550 4450 0    60   ~ 0
+RS1
+Text Label 3550 4550 0    60   ~ 0
+RS4
+Text Notes 3900 4250 0    39   ~ 0
+rxd
+Text Notes 3900 4450 0    39   ~ 0
+txd
+Text Notes 3900 4350 0    39   ~ 0
+cts
+Text Notes 3900 4550 0    39   ~ 0
+rts
 $EndSCHEMATC

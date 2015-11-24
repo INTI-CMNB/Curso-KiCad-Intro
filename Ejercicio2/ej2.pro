@@ -1,4 +1,4 @@
-update=jue 19 nov 2015 18:17:59 ART
+update=lun 23 nov 2015 18:44:06 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -84,3 +84,4 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=libs/ej2
+LibName2=power

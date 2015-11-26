@@ -1,0 +1,2 @@
+Aquí se colocan los archivos gerber que se envían a fabricar, a cotizar, etc.
+Para evitar renombrarlos, se pueden crear subdirectorios.

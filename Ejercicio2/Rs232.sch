@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:ej2
 LIBS:power
+LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -10,7 +11,7 @@ Title "Ejercicio 2 - Curso Kicad - RS-232"
 Date "2015-11-26"
 Rev "1.0"
 Comp "Instituto Nacional de Tecnología Industrial INTI-CMNB"
-Comment1 "Autores: D. Alamon, D. Brengi, N. Scotti"
+Comment1 "Autores: D. Alamon, D. Brengi, N. Scotti    Licencia:doc/LICENCIA.txt"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -875,7 +876,7 @@ DE D0 83 CF 60 78 00 1B 2A 1A 3B 9F CB 8A 86 CE 86 50 D9 18 12 48 20 6E 71 93 59
 B4 E5 40 47 5D 24 EC F2 D7 BF FE A7 63 A3 6F 47 FD 2C B3 1C 1F 11 FA 2C C8 16 A0 4D 5D 92 CA 3A 
 D7 83 7C 1A 00 80 0B F5 7C DA 77 F9 12 00 00 77 D8 F4 F5 E3 3E 81 D3 84 00 BC 9C 1F 9E 53 EF 5E 
 56 13 80 F1 D0 10 7F 62 4C 03 40 06 D8 7F 03 40 06 5F ED 80 FF 91 20 12 25 DF 00 00 00 00 49 45 
-4E 44 AE 42 60 82 00 
+4E 44 AE 42 60 82 04 
 EndData
 $EndBitmap
 Text Notes 8300 5350 2    60   ~ 0

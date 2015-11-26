@@ -8,10 +8,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ejercicio1 Curso KiCad"
-Date "2015-11-03"
+Date "2015-11-26"
 Rev "1.0"
 Comp "INTI - CMNB"
-Comment1 ""
+Comment1 "Autores: Diego Brengi    Licencia:doc/LICENCIA.txt"
 Comment2 ""
 Comment3 ""
 Comment4 ""

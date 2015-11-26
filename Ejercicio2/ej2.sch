@@ -1,6 +1,7 @@
 EESchema Schematic File Version 2
 LIBS:ej2
 LIBS:power
+LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -10,7 +11,7 @@ Title "Ejercicio 2 - Curso Kicad - principal"
 Date "2015-11-26"
 Rev "1.0"
 Comp "Instituto Nacional de Tecnología Industrial INTI-CMNB"
-Comment1 "Autores: D. Alamon, D. Brengi, N. Scotti"
+Comment1 "Autores: D. Alamon, D. Brengi, N. Scotti    Licencia:doc/LICENCIA.txt"
 Comment2 ""
 Comment3 ""
 Comment4 ""

@@ -3,7 +3,7 @@
   (general
     (links 8)
     (no_connects 0)
-    (area 124.384999 87.554999 146.125001 104.215001)
+    (area 121.376 81.605 155.383572 104.469001)
     (thickness 1.6)
     (drawings 8)
     (tracks 17)
@@ -14,12 +14,12 @@
 
   (page A4)
   (title_block
-    (title "Curso Kicad - Intro ")
-    (date 2015-11-16)
+    (title "Curso Kicad - Intro - Ejercicio 1")
+    (date 2015-11-26)
     (rev 1.0)
     (company "Instituto Nacional de Tecnología Industrial")
     (comment 1 INTI-CMNB)
-    (comment 2 "Ejercicio 1")
+    (comment 2 "Autores: Diego Brengi        Licencia:doc/LICENCIA.txt")
   )
 
   (layers

@@ -3,7 +3,7 @@
   (general
     (links 44)
     (no_connects 0)
-    (area 81.072618 65.73 157.923572 134.695001)
+    (area 81.072618 62.36 236.857859 164.528501)
     (thickness 1.6)
     (drawings 23)
     (tracks 289)
@@ -18,7 +18,7 @@
     (date 2015-11-26)
     (rev 1.0)
     (company "Instituto Nacional de Tecnología Industrial")
-    (comment 1 "Autores: D.Brengi, D. Alamon y N. Scotti")
+    (comment 1 "Autores: D.Brengi, D. Alamon y N. Scotti    Licencia:doc/LICENCIA.txt")
   )
 
   (layers

@@ -1,27 +1,26 @@
 EESchema Schematic File Version 2
 LIBS:ej2
 LIBS:power
-LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "Ejercicio 2 - Curso Kicad"
-Date "2015-11-19"
+Title "Ejercicio 2 - Curso Kicad - principal"
+Date "2015-11-26"
 Rev "1.0"
 Comp "Instituto Nacional de Tecnología Industrial INTI-CMNB"
-Comment1 ""
+Comment1 "Autores: D. Alamon, D. Brengi, N. Scotti"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 800  1950 0    100  ~ 0
-EJERCICIO2\n* Utilizar hojas jeráqruicas.\n* Hacer un componente de biblioteca.\n* Detalles del ERC.\n* Power Flag.\n* Buses.\n* Campos de información.\n* BOM.
+EJERCICIO2\n* Utilizar hojas jeráqruicas.\n* Crear un componente de biblioteca.\n* Detalles del ERC.\n* Power Flag.\n* Buses.\n* Etiquetas.\n* Campos de información.\n* BOM.
 $Sheet
 S 4500 2900 800  1350
 U 564E2838
-F0 "Conector" 60
+F0 "Conector y CAN" 60
 F1 "Conector.sch" 60
 F2 "TXD" I R 5300 3100 60 
 F3 "RXD" O R 5300 3200 60 

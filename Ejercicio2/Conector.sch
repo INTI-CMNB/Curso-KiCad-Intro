@@ -162,7 +162,8 @@ P 7450 3750
 F 0 "J2" H 7500 3750 60  0000 C CNN
 F 1 "CAN" H 7500 3250 60  0000 C CNN
 F 2 "ej2:CON_PALETA_3" H 7450 3750 60  0001 C CNN
-F 3 "" H 7450 3750 60  0000 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 7450 3750 60  0001 C CNN
+F 4 "A19470-ND" H 7450 3750 60  0001 C CNN "Digikey/Mouser"
 	1    7450 3750
 	-1   0    0    -1  
 $EndComp
@@ -173,7 +174,8 @@ P 9050 4000
 F 0 "U2" H 9350 4500 60  0000 C CNN
 F 1 "AMIS42665TJAA1RG" H 9050 3600 60  0000 C CNN
 F 2 "ej2:SOIC-8" H 9050 4050 60  0001 C CNN
-F 3 "" H 9050 4050 60  0000 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/AMIS-42665-D.PDF" H 9050 4050 60  0001 C CNN
+F 4 "766-1006-1-ND" H 9050 4000 60  0001 C CNN "Digikey/Mouser"
 	1    9050 4000
 	-1   0    0    -1  
 $EndComp
@@ -222,7 +224,8 @@ P 8150 3650
 F 0 "R1" V 8050 3650 50  0000 C CNN
 F 1 "60" V 8150 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 3650 60  0001 C CNN
-F 3 "" H 8150 3650 60  0000 C CNN
+F 3 "http://www.vishaypg.com/docs/63070/vsmserie.pdf" H 8150 3650 60  0001 C CNN
+F 4 "Y149660R0000A0R-ND" H 8150 3650 60  0001 C CNN "Digikey/Mouser"
 	1    8150 3650
 	1    0    0    -1  
 $EndComp
@@ -233,7 +236,8 @@ P 8150 4250
 F 0 "R2" V 8050 4250 50  0000 C CNN
 F 1 "60" V 8150 4250 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 4250 60  0001 C CNN
-F 3 "" H 8150 4250 60  0000 C CNN
+F 3 "http://www.vishaypg.com/docs/63070/vsmserie.pdf" H 8150 4250 60  0001 C CNN
+F 4 "Y149660R0000A0R-ND" H 8150 4250 60  0001 C CNN "Digikey/Mouser"
 	1    8150 4250
 	1    0    0    -1  
 $EndComp

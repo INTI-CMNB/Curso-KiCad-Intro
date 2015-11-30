@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SP3232ECN_MP
+D SP3232 
+K RS-232 buffer level
+$ENDCMP
+#
+#End Doc Library

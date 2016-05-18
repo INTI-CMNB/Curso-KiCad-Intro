@@ -24,7 +24,9 @@ F 0 "XA1" H 5600 3350 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 5650 1250 60  0000 C CNN
 F 2 "ej2:Conn_Poncho_Derecha" H 5300 2950 60  0001 C CNN
 F 3 "https://cdn.harwin.com/pdfs/60page108.pdf" H 5300 2950 60  0001 C CNN
-F 4 "952-1387-ND" H 5300 2950 60  0001 C CNN "Digikey/Mouser"
+F 4 "Harwin" H 5300 2950 60  0001 C CNN "Manf"
+F 5 "M50-3502042" H 5300 2950 60  0001 C CNN "Manf#"
+F 6 "952-1387-ND" H 5300 2950 60  0001 C CNN "Digikey#"
 	1    5300 2950
 	1    0    0    -1  
 $EndComp
@@ -163,7 +165,9 @@ F 0 "J2" H 7500 3750 60  0000 C CNN
 F 1 "CAN" H 7500 3250 60  0000 C CNN
 F 2 "ej2:CON_PALETA_3" H 7450 3750 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640456&DocType=Customer+Drawing&DocLang=English" H 7450 3750 60  0001 C CNN
-F 4 "A19470-ND" H 7450 3750 60  0001 C CNN "Digikey/Mouser"
+F 4 "AMP" H 7450 3750 60  0001 C CNN "Manf"
+F 5 "640456-3" H 7450 3750 60  0001 C CNN "Manf#"
+F 6 "A19470-ND" H 7450 3750 60  0001 C CNN "Digikey#"
 	1    7450 3750
 	-1   0    0    -1  
 $EndComp
@@ -175,7 +179,9 @@ F 0 "U2" H 9350 4500 60  0000 C CNN
 F 1 "AMIS42665TJAA1RG" H 9050 3600 60  0000 C CNN
 F 2 "ej2:SOIC-8" H 9050 4050 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/AMIS-42665-D.PDF" H 9050 4050 60  0001 C CNN
-F 4 "766-1006-1-ND" H 9050 4000 60  0001 C CNN "Digikey/Mouser"
+F 4 "ON" H 9050 4000 60  0001 C CNN "Manf"
+F 5 "AMIS42665TJAA1RG" H 9050 4000 60  0001 C CNN "Manf#"
+F 6 "766-1006-1-ND" H 9050 4000 60  0001 C CNN "Digikey#"
 	1    9050 4000
 	-1   0    0    -1  
 $EndComp
@@ -213,7 +219,7 @@ F 0 "C6" V 9800 3750 40  0000 L CNN
 F 1 "100nF" V 9900 3750 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9988 3500 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 9950 3650 60  0001 C CNN
-F 4 "311-1179-1-ND" H 9950 3650 60  0001 C CNN "Digikey/Mouser"
+F 4 "311-1179-1-ND" H 9950 3650 60  0001 C CNN "Digikey#"
 	1    9950 3650
 	0    1    1    0   
 $EndComp
@@ -225,7 +231,9 @@ F 0 "R1" V 8050 3650 50  0000 C CNN
 F 1 "60" V 8150 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 3650 60  0001 C CNN
 F 3 "http://www.vishaypg.com/docs/63070/vsmserie.pdf" H 8150 3650 60  0001 C CNN
-F 4 "Y149660R0000A0R-ND" H 8150 3650 60  0001 C CNN "Digikey/Mouser"
+F 4 "Vishay Dale" H 8150 3650 60  0001 C CNN "Manf"
+F 5 "CRCW120660R0KNEAIF" H 8150 3650 60  0001 C CNN "Manf#"
+F 6 "CRCW120660R0KNEAIF-ND" H 8150 3650 60  0001 C CNN "Digikey#"
 	1    8150 3650
 	1    0    0    -1  
 $EndComp
@@ -237,7 +245,9 @@ F 0 "R2" V 8050 4250 50  0000 C CNN
 F 1 "60" V 8150 4250 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 4250 60  0001 C CNN
 F 3 "http://www.vishaypg.com/docs/63070/vsmserie.pdf" H 8150 4250 60  0001 C CNN
-F 4 "Y149660R0000A0R-ND" H 8150 4250 60  0001 C CNN "Digikey/Mouser"
+F 4 "Vishay Dale" H 8150 4250 60  0001 C CNN "Manf"
+F 5 "CRCW120660R0KNEAIF" H 8150 4250 60  0001 C CNN "Manf#"
+F 6 "CRCW120660R0KNEAIF-ND" H 8150 4250 60  0001 C CNN "Digikey#"
 	1    8150 4250
 	1    0    0    -1  
 $EndComp

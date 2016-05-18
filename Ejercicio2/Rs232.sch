@@ -24,7 +24,9 @@ F 0 "J1" H 8050 5100 70  0000 C CNN
 F 1 "DB9-F" H 8050 4000 70  0000 C CNN
 F 2 "ej2:DB9_F_TH" H 8050 4550 60  0001 C CNN
 F 3 "http://www.sullinscorp.com/drawings/345_11773,_SDS107-PR___-_____-SN___-___.pdf" H 8050 4550 60  0001 C CNN
-F 4 "S9554-ND" H 8050 4550 60  0001 C CNN "Digikey/Mouser"
+F 4 "AMP" H 8050 4550 60  0001 C CNN "Manf"
+F 5 "1734354-1" H 8050 4550 60  0001 C CNN "Manf#"
+F 6 "A35107-ND" H 8050 4550 60  0001 C CNN "Digikey#"
 	1    8050 4550
 	1    0    0    -1  
 $EndComp
@@ -62,7 +64,7 @@ F 0 "C3" V 6000 3650 40  0000 L CNN
 F 1 "100nF" V 6000 3900 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6138 3400 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 6100 3550 60  0001 C CNN
-F 4 "311-1179-1-ND" H 6100 3550 60  0001 C CNN "Digikey/Mouser"
+F 4 "311-1179-1-ND" H 6100 3550 60  0001 C CNN "digikey#"
 	1    6100 3550
 	0    1    1    0   
 $EndComp
@@ -74,7 +76,7 @@ F 0 "C4" V 6000 4150 40  0000 L CNN
 F 1 "100nF" V 6000 4400 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6138 3900 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 6100 4050 60  0001 C CNN
-F 4 "311-1179-1-ND" H 6100 4050 60  0001 C CNN "Digikey/Mouser"
+F 4 "311-1179-1-ND" H 6100 4050 60  0001 C CNN "Digikey#"
 	1    6100 4050
 	0    1    1    0   
 $EndComp
@@ -86,7 +88,7 @@ F 0 "C1" H 3700 3450 40  0000 L CNN
 F 1 "100nF" H 3706 3265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3738 3200 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 3700 3350 60  0001 C CNN
-F 4 "311-1179-1-ND" H 3700 3350 60  0001 C CNN "Digikey/Mouser"
+F 4 "311-1179-1-ND" H 3700 3350 60  0001 C CNN "Digikey#"
 	1    3700 3350
 	1    0    0    -1  
 $EndComp
@@ -98,7 +100,7 @@ F 0 "C2" H 3700 3950 40  0000 L CNN
 F 1 "100nF" H 3706 3765 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3738 3700 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 3700 3850 60  0001 C CNN
-F 4 "311-1179-1-ND" H 3700 3850 60  0001 C CNN "Digikey/Mouser"
+F 4 "311-1179-1-ND" H 3700 3850 60  0001 C CNN "Digikey#"
 	1    3700 3850
 	1    0    0    -1  
 $EndComp
@@ -110,7 +112,9 @@ F 0 "C5" H 7000 3050 40  0000 L CNN
 F 1 "100nF" H 7006 2865 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7038 2800 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 7000 2950 60  0001 C CNN
-F 4 "311-1179-1-ND" H 7000 2950 60  0001 C CNN "Digikey/Mouser"
+F 4 "Yageo" H 7000 2950 60  0001 C CNN "Manf"
+F 5 "CC1206KRX7R9BB104" H 7000 2950 60  0001 C CNN "Manf#"
+F 6 "311-1179-1-ND" H 7000 2950 60  0001 C CNN "Digikey#"
 	1    7000 2950
 	1    0    0    -1  
 $EndComp
@@ -876,7 +880,7 @@ DE D0 83 CF 60 78 00 1B 2A 1A 3B 9F CB 8A 86 CE 86 50 D9 18 12 48 20 6E 71 93 59
 B4 E5 40 47 5D 24 EC F2 D7 BF FE A7 63 A3 6F 47 FD 2C B3 1C 1F 11 FA 2C C8 16 A0 4D 5D 92 CA 3A 
 D7 83 7C 1A 00 80 0B F5 7C DA 77 F9 12 00 00 77 D8 F4 F5 E3 3E 81 D3 84 00 BC 9C 1F 9E 53 EF 5E 
 56 13 80 F1 D0 10 7F 62 4C 03 40 06 D8 7F 03 40 06 5F ED 80 FF 91 20 12 25 DF 00 00 00 00 49 45 
-4E 44 AE 42 60 82 01 
+4E 44 AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 8300 5350 2    60   ~ 0
@@ -908,7 +912,9 @@ F 0 "U1" H 4950 4700 70  0000 C CNN
 F 1 "SP3232ECN" H 4950 2950 70  0000 C CNN
 F 2 "ej2:SP3232ECN-SOIC16N" H 4950 3850 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/es/SP3232ECN-L%2FTR/1016-1803-1-ND/3586520" H 4950 3850 60  0001 C CNN
-F 4 "1016-1803-1-ND" H 4950 3850 60  0001 C CNN "Digikey/Mouser"
+F 4 "Exar" H 4950 3850 60  0001 C CNN "Manf"
+F 5 "SP3232ECN-L/TR" H 4950 3850 60  0001 C CNN "Manf#"
+F 6 "1016-1803-1-ND" H 4950 3850 60  0001 C CNN "Digikey#"
 	1    4950 3850
 	1    0    0    -1  
 $EndComp

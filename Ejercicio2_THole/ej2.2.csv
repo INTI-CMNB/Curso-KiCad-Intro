@@ -1,0 +1,5 @@
+Reference,Quantity,Identifier,Package,Value,Tolerance,Voltage,Current,Power,PN,Manf,Manf#,Digikey#
+"U1","1","","","MAX232","","","","","","Texas","MAX232NE4","MAX232NE4-ND"
+"XA1","1","","","Conn_Poncho2P_2x_20x2","","","","","","Harwin","M50-3502042","952-1387-ND"
+"J1","1","","","DB9-F","","","","","","AMP","1734354-1","A35107-ND"
+"C3;C4;C1;C2;C5","5","","","1uF","","","","","","Nichicon","UMF1V010MDD1TP","493-10230-2-ND"

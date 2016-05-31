@@ -2,6 +2,7 @@ EESchema Schematic File Version 2
 LIBS:ej2
 LIBS:power
 LIBS:fiducial
+LIBS:max232_mp
 LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END
@@ -90,9 +91,9 @@ Wire Wire Line
 	4850 2650 4850 2550
 Wire Wire Line
 	5050 3750 4350 3750
-Text HLabel 4350 3750 0    60   Input ~ 0
-TXD
 Text HLabel 4350 3850 0    60   Output ~ 0
+TXD
+Text HLabel 4350 3750 0    60   Input ~ 0
 RXD
 Wire Wire Line
 	5050 3850 4350 3850
@@ -100,9 +101,9 @@ Wire Wire Line
 	5050 4350 4350 4350
 Wire Wire Line
 	5050 4450 4350 4450
-Text HLabel 4350 4350 0    60   Input ~ 0
-RTS
 Text HLabel 4350 4450 0    60   Output ~ 0
+RTS
+Text HLabel 4350 4350 0    60   Input ~ 0
 CTS
 NoConn ~ 6250 4350
 NoConn ~ 6250 4250

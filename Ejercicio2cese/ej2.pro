@@ -1,4 +1,4 @@
-update=jue 19 may 2016 17:43:56 ART
+update=mar 31 may 2016 00:33:01 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -86,3 +86,4 @@ LibDir=
 LibName1=libs/ej2
 LibName2=power
 LibName3=libs/fiducial
+LibName4=libs/max232_mp

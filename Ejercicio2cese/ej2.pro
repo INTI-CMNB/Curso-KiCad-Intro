@@ -1,4 +1,4 @@
-update=mar 31 may 2016 00:33:01 ART
+update=lun 06 jun 2016 17:37:22 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -84,6 +84,3 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=libs/ej2
-LibName2=power
-LibName3=libs/fiducial
-LibName4=libs/max232_mp

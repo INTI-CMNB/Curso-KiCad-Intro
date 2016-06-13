@@ -1,8 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:ej2
-LIBS:power
-LIBS:fiducial
-LIBS:max232_mp
 LIBS:ej2-cache
 EELAYER 25 0
 EELAYER END

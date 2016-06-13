@@ -51,7 +51,7 @@ F 0 "C3" V 5500 2400 40  0000 L CNN
 F 1 "100nF" V 5550 2400 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5738 2300 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V-v12.pdf" H 5700 2450 60  0001 C CNN
-F 4 "311-1179-1-ND" H 5700 2450 60  0001 C CNN "digikey#"
+F 4 "311-1179-1-ND" H 5700 2450 60  0001 C CNN "Digikey#"
 	1    5700 2450
 	0    1    1    0   
 $EndComp
@@ -947,7 +947,7 @@ F 2 "ej2:SP3232ECN-SOIC16N" H 4950 4350 60  0001 C CNN
 F 3 "http://www.digikey.com/product-detail/es/SP3232ECN-L%2FTR/1016-1803-1-ND/3586520" H 4950 4350 60  0001 C CNN
 F 4 "Exar" H 4950 4350 60  0001 C CNN "Manf"
 F 5 "SP3232ECN-L/TR" H 4950 4350 60  0001 C CNN "Manf#"
-F 6 "1016-1803-1-ND" H 4950 4350 60  0001 C CNN "Diegikey#"
+F 6 "1016-1803-1-ND" H 4950 4350 60  0001 C CNN "Digikey#"
 	2    4950 4350
 	1    0    0    -1  
 $EndComp

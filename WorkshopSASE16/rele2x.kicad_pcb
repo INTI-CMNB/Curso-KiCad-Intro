@@ -3,7 +3,7 @@
   (general
     (links 46)
     (no_connects 0)
-    (area 101.270999 75.489999 187.146001 135.965001)
+    (area 17.422141 15.774999 279.500001 148.750001)
     (thickness 1.6)
     (drawings 30)
     (tracks 90)
@@ -173,7 +173,7 @@
       (net 16 +5VP))
     (pad 1 thru_hole rect (at 0.00052 -0.00254 180) (size 1.69926 1.69926) (drill 0.70104) (layers *.Cu *.Mask F.SilkS)
       (net 2 "Net-(D1-Pad1)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Diode_DO-35_SOD27_Horizontal_RM10.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Diode_DO-35_SOD27_Horizontal_RM10.wrl
       (at (xyz 0.2 0 0))
       (scale (xyz 0.4 0.4 0.2))
       (rotate (xyz 0 0 180))
@@ -204,7 +204,7 @@
       (net 16 +5VP))
     (pad 1 thru_hole rect (at 0.00052 -0.00254 180) (size 1.69926 1.69926) (drill 0.70104) (layers *.Cu *.Mask F.SilkS)
       (net 3 "Net-(D2-Pad1)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Diode_DO-35_SOD27_Horizontal_RM10.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Diode_DO-35_SOD27_Horizontal_RM10.wrl
       (at (xyz 0.2 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 180))
@@ -233,12 +233,7 @@
       (net 5 "Net-(J1-Pad2)"))
     (pad 3 thru_hole circle (at 5.08 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 6 "Net-(J1-Pad3)"))
-    (model Connect.3dshapes/bornier3.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Bornera3.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.7 0.8))
       (rotate (xyz 0 0 0))
@@ -267,7 +262,7 @@
       (net 8 "Net-(J2-Pad2)"))
     (pad 3 thru_hole circle (at 5.08 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS)
       (net 9 "Net-(J2-Pad3)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Bornera3.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Bornera3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 0.7 0.8))
       (rotate (xyz 0 0 0))
@@ -315,7 +310,7 @@
       (net 16 +5VP))
     (pad 1 thru_hole circle (at 0 -8.1) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 4 "Net-(J1-Pad1)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Relay_C.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Relay_C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -363,7 +358,7 @@
       (net 16 +5VP))
     (pad 1 thru_hole circle (at 0 -8.1) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 7 "Net-(J2-Pad1)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Relay_C.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Relay_C.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -398,7 +393,7 @@
       (net 16 +5VP))
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 10 "Net-(LED1-Pad2)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/LED-3MM.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/LED-3MM.wrl
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -433,7 +428,7 @@
       (net 16 +5VP))
     (pad 2 thru_hole circle (at 2.54 0 90) (size 2 2) (drill 1.00076) (layers *.Cu *.Mask F.SilkS)
       (net 11 "Net-(LED2-Pad2)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/LED-3MM.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/LED-3MM.wrl
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -465,7 +460,7 @@
       (net 2 "Net-(D1-Pad1)"))
     (pad 1 thru_hole oval (at 0 0 90) (size 0.89916 1.50114) (drill 0.6) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/TO-92_Inline_Narrow_Oval.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/TO-92_Inline_Narrow_Oval.wrl
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -497,7 +492,7 @@
       (net 3 "Net-(D2-Pad1)"))
     (pad 1 thru_hole oval (at 0 0 90) (size 0.89916 1.50114) (drill 0.6) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/TO-92_Inline_Narrow_Oval.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/TO-92_Inline_Narrow_Oval.wrl
       (at (xyz 0.05 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -529,7 +524,7 @@
       (net 12 "Net-(Q1-Pad2)"))
     (pad 2 thru_hole circle (at 10.16 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 14 "Net-(R1-Pad2)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
       (at (xyz 0.2 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -561,7 +556,7 @@
       (net 13 "Net-(Q2-Pad2)"))
     (pad 2 thru_hole circle (at 10.16 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 15 "Net-(R2-Pad2)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
       (at (xyz 0.2 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -593,7 +588,7 @@
       (net 10 "Net-(LED1-Pad2)"))
     (pad 2 thru_hole circle (at 10.16 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 2 "Net-(D1-Pad1)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
       (at (xyz 0.2 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -625,7 +620,7 @@
       (net 11 "Net-(LED2-Pad2)"))
     (pad 2 thru_hole circle (at 10.16 0 180) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask)
       (net 3 "Net-(D2-Pad1)"))
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/Resistor_Horizontal_RM10mm.wrl
       (at (xyz 0.2 0 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
@@ -1001,12 +996,12 @@
     (pad 79 thru_hole oval (at -71.12 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
     (pad 80 thru_hole oval (at -68.58 48.26 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-    (model ../../../../../../home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/pin_strip_20x2.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/pin_strip_20x2.wrl
       (at (xyz 0.05 -0.95 -0.063))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
     )
-    (model /home/brengi/git/github/Ponchos/sase16/footprint.3dshapes/pin_strip_20x2.wrl
+    (model ${KIPRJMOD}/footprint.3dshapes/pin_strip_20x2.wrl
       (at (xyz -2.75 -0.95 -0.063))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))

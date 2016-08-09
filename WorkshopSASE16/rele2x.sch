@@ -379,7 +379,7 @@ L R R3
 U 1 1 57A976E4
 P 5350 4000
 F 0 "R3" V 5300 4000 50  0000 C CNN
-F 1 "330R" V 5400 4000 50  0000 C CNN
+F 1 "330R" V 5450 4000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 5350 4000 60  0001 C CNN
 F 3 "" H 5350 4000 60  0000 C CNN
 F 4 "Stackpole" H 5350 4000 60  0001 C CNN "Manf"
@@ -542,7 +542,7 @@ $EndComp
 Wire Wire Line
 	5050 4500 4900 4500
 Text Notes 4150 7350 0    60   ~ 0
-ADVERTENCIA:\nLos componentes y sus valores se eligen\na los fines de realizar un ejercicio con KiCad.\nEn caso de querer construir el circuito, verificar \nprimero el circuito.
+ADVERTENCIA:\nLos componentes y sus valores se eligen\na los fines de realizar un ejercicio con KiCad.\nEn caso de querer construir el circuito, verificar \nprimero el circuito ya que este no esta verificado.
 NoConn ~ 1500 4450
 Wire Wire Line
 	2700 4650 3850 4650
@@ -651,7 +651,7 @@ L R R4
 U 1 1 57A99D8A
 P 5350 2200
 F 0 "R4" V 5300 2200 50  0000 C CNN
-F 1 "330R" V 5400 2200 50  0000 C CNN
+F 1 "330R" V 5450 2200 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 5350 2200 60  0001 C CNN
 F 3 "" H 5350 2200 60  0000 C CNN
 F 4 "Stackpole" H 5350 2200 60  0001 C CNN "Manf"

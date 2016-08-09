@@ -1,0 +1,12 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 8 Agosto de 2016
+* Autores:  Diego Brengi
+* Archivos: .kicad_pc *.sch *.pretty *.3dshapes
+* Descripción: Aparte del Modelo básico de Poncho en: 
+               https://github.com/ciaa/Ponchos/tree/master/Basico
+               Se arma El poncho Rele2x para elejercicio del Workshop
+               sobre KiCad en el SASE 2016.
+
+

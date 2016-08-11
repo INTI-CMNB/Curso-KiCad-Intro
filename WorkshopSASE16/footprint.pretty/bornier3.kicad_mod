@@ -15,9 +15,9 @@
   (pad 1 thru_hole rect (at -5.08 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 5.08 0) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask F.SilkS))
-  (model Connect.3dshapes/bornier3.wrl
+  (model ${KIPRJMOD}/footprint.3dshapes/Bornera3.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 1 0.7 0.8))
     (rotate (xyz 0 0 0))
   )
 )

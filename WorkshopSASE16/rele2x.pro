@@ -1,6 +1,6 @@
-update=lun 08 ago 2016 22:23:52 ART
+update=lun 15 ago 2016 22:04:34 ART
 version=1
-last_client=kicad4
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net

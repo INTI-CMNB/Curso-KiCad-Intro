@@ -1,0 +1,330 @@
+EESchema Schematic File Version 2
+LIBS:device
+LIBS:rele1x-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Poncho RELE1x"
+Date "2016-10-18"
+Rev "1.0"
+Comp "Proyecto CIAA - COMPUTADORA INDUSTRIAL ABIERTA ARGENTINA"
+Comment1 "Ver directorio \"doc\""
+Comment2 "Autores: Diego Brengi - UNLaM"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OSHWA #G2
+U 1 1 560A0A28
+P 10450 6050
+F 0 "#G2" H 10420 6450 60  0001 C CNN
+F 1 "OSHWA" H 10450 6353 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_OSHWA" H 10450 6050 60  0001 C CNN
+F 3 "" H 10450 6050 60  0000 C CNN
+	1    10450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logo_Poncho #G1
+U 1 1 560CFFC0
+P 9800 6000
+F 0 "#G1" H 9750 5600 60  0001 C CNN
+F 1 "Logo_Poncho" H 10000 5600 60  0001 C CNN
+F 2 "Poncho_Esqueleto:Logo_Poncho" H 9800 6000 60  0001 C CNN
+F 3 "" H 9800 6000 60  0001 C CNN
+	1    9800 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 8000 950  0    118  ~ 24
+http://www.proyecto-ciaa.com.ar/\nPoncho Rele1x
+$Comp
+L +5VP #PWR01
+U 1 1 560EE7D3
+P 4975 2975
+F 0 "#PWR01" H 4975 3065 20  0001 C CNN
+F 1 "+5VP" H 4975 3125 30  0000 C CNN
+F 2 "" H 4975 2975 60  0000 C CNN
+F 3 "" H 4975 2975 60  0000 C CNN
+	1    4975 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Poncho2P_2x_20x2 XA1
+U 2 1 57A7A13C
+P 3575 3525
+F 0 "XA1" H 3875 3925 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 3925 1825 60  0000 C CNN
+F 2 "footprint:Conn_Poncho_Izquierdo" H 3575 3525 60  0001 C CNN
+F 3 "" H 3575 3525 60  0000 C CNN
+F 4 "Harwin" H 3575 3525 60  0001 C CNN "Manf"
+F 5 "M50-3502042" H 3575 3525 60  0001 C CNN "Manf#"
+F 6 "952-1387-ND" H 3575 3525 60  0001 C CNN "Digikey#"
+	2    3575 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 5025 3325 5025
+Connection ~ 3125 5125
+Wire Wire Line
+	3125 4525 3325 4525
+Connection ~ 3125 4525
+Wire Wire Line
+	3125 4125 3325 4125
+Connection ~ 3125 4425
+Wire Wire Line
+	3125 4025 3325 4025
+Connection ~ 3125 4125
+Wire Wire Line
+	3125 3825 3325 3825
+Connection ~ 3125 4025
+Wire Wire Line
+	3125 3725 3325 3725
+Connection ~ 3125 3825
+Wire Wire Line
+	3125 3525 3325 3525
+Connection ~ 3125 3725
+Wire Wire Line
+	3125 3425 3325 3425
+Connection ~ 3125 3525
+Wire Wire Line
+	3125 3325 3325 3325
+Connection ~ 3125 3425
+$Comp
+L GNDD #PWR02
+U 1 1 57A7AB5F
+P 3125 5275
+F 0 "#PWR02" H 3125 5025 50  0001 C CNN
+F 1 "GNDD" H 3125 5125 50  0000 C CNN
+F 2 "" H 3125 5275 50  0000 C CNN
+F 3 "" H 3125 5275 50  0000 C CNN
+	1    3125 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 3225 4975 3225
+Wire Wire Line
+	4975 3225 4975 2975
+Wire Wire Line
+	3125 3325 3125 5275
+Wire Wire Line
+	3125 5125 3325 5125
+$Comp
+L GNDD #PWR03
+U 1 1 57A818DF
+P 6650 5025
+F 0 "#PWR03" H 6650 4775 50  0001 C CNN
+F 1 "GNDD" H 6650 4875 50  0000 C CNN
+F 2 "" H 6650 5025 50  0000 C CNN
+F 3 "" H 6650 5025 50  0000 C CNN
+	1    6650 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4325 6650 4525
+Wire Wire Line
+	6650 4375 7300 4375
+Wire Wire Line
+	7300 4375 7300 4225
+Connection ~ 6650 4375
+Wire Wire Line
+	6900 4225 6900 4375
+Connection ~ 6900 4375
+$Comp
+L +5VP #PWR04
+U 1 1 57A822EF
+P 6900 3375
+F 0 "#PWR04" H 6900 3465 20  0001 C CNN
+F 1 "+5VP" H 6900 3525 30  0000 C CNN
+F 2 "" H 6900 3375 60  0000 C CNN
+F 3 "" H 6900 3375 60  0000 C CNN
+	1    6900 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3525 7300 3825
+Wire Wire Line
+	6650 3525 7300 3525
+Wire Wire Line
+	6900 3375 6900 3925
+Connection ~ 6900 3525
+Wire Wire Line
+	8250 4225 8100 4225
+Wire Wire Line
+	8100 4225 8100 4375
+Wire Wire Line
+	8100 4375 7550 4375
+Wire Wire Line
+	7550 4375 7550 4225
+Wire Wire Line
+	8250 3825 8250 3625
+Wire Wire Line
+	8250 3625 7500 3625
+Wire Wire Line
+	7500 3625 7500 3825
+Wire Wire Line
+	8250 4025 8100 4025
+Wire Wire Line
+	8100 4025 8100 3725
+Wire Wire Line
+	8100 3725 7600 3725
+Wire Wire Line
+	7600 3725 7600 3825
+NoConn ~ 3325 3625
+NoConn ~ 3325 3925
+NoConn ~ 3325 4225
+NoConn ~ 3325 4325
+NoConn ~ 3325 4825
+NoConn ~ 3325 4925
+NoConn ~ 4525 3325
+NoConn ~ 4525 3425
+NoConn ~ 4525 3525
+NoConn ~ 4525 3625
+NoConn ~ 4525 3725
+NoConn ~ 4525 3825
+NoConn ~ 4525 3925
+NoConn ~ 4525 4025
+NoConn ~ 4525 4125
+NoConn ~ 4525 4225
+NoConn ~ 4525 4325
+NoConn ~ 4525 4425
+NoConn ~ 4525 4525
+NoConn ~ 4525 4625
+NoConn ~ 4525 4925
+NoConn ~ 4525 5025
+NoConn ~ 4525 5125
+Wire Wire Line
+	6650 5025 6650 4925
+Wire Wire Line
+	3325 3225 2975 3225
+Wire Wire Line
+	2975 3225 2975 3075
+$Comp
+L +3.3VP #PWR05
+U 1 1 57A7A9F3
+P 2975 3075
+F 0 "#PWR05" H 3125 3025 50  0001 C CNN
+F 1 "+3.3VP" H 2975 3175 50  0000 C CNN
+F 2 "" H 2975 3075 50  0000 C CNN
+F 3 "" H 2975 3075 50  0000 C CNN
+	1    2975 3075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 4425 3125 4425
+Text Notes 4150 7350 0    60   ~ 0
+ADVERTENCIA:\nLos componentes y sus valores se eligen\na los fines de realizar un ejercicio con KiCad.\nEn caso de querer construir el circuito, verificar \nprimero el circuito ya que este no esta verificado.
+NoConn ~ 3325 4625
+Wire Wire Line
+	4525 4725 5950 4725
+NoConn ~ 3325 4725
+Connection ~ 3125 5025
+Text Notes 8850 4075 0    79   ~ 16
+GPIO1
+$Comp
+L Q_NPN_EBC Q1
+U 1 1 57A98AC9
+P 6550 4725
+F 0 "Q1" H 6850 4775 50  0000 R CNN
+F 1 "2N3904" H 7150 4675 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 6750 4825 29  0001 C CNN
+F 3 "" H 6550 4725 60  0000 C CNN
+F 4 "Micro" H 6550 4725 60  0001 C CNN "Manf"
+F 5 "2N3904-AP" H 6550 4725 60  0001 C CNN "Manf#"
+F 6 "2N3904-APTB-ND" H 6550 4725 60  0001 C CNN "Digikey#"
+	1    6550 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED LED1
+U 1 1 57A98D62
+P 6650 3775
+F 0 "LED1" H 6650 3875 40  0000 C CNN
+F 1 "LED" H 6650 3675 40  0000 C CNN
+F 2 "LEDs:LED-3MM" H 6650 3775 60  0001 C CNN
+F 3 "" H 6650 3775 60  0000 C CNN
+F 4 "Marktech" H 6650 3775 60  0001 C CNN "Manf"
+F 5 "MT1403-RG-A" H 6650 3775 60  0001 C CNN "Manf#"
+F 6 "1125-1182-ND" H 6650 3775 60  0001 C CNN "Digikey#"
+	1    6650 3775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RELAY_C K1
+U 1 1 57A99375
+P 7450 4025
+F 0 "K1" H 7450 4275 60  0000 C CNN
+F 1 "RELAY_C" H 7450 3790 60  0000 C CNN
+F 2 "Relays_ThroughHole:Relay_SANYOU_SRD_Series_Form_C" H 7450 4025 60  0001 C CNN
+F 3 "" H 7450 4025 60  0000 C CNN
+F 4 "TE" H 7450 4025 60  0001 C CNN "Manf"
+F 5 "ORWH-SH-112D,N000" H 7450 4025 60  0001 C CNN "Manf#"
+F 6 "PB1321-ND" H 7450 4025 60  0001 C CNN "Digikey#"
+	1    7450 4025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TB_1X3 J1
+U 1 1 57A99504
+P 8600 4125
+F 0 "J1" H 8600 4425 60  0000 C CNN
+F 1 "TB_1X3" H 8650 3675 60  0000 C CNN
+F 2 "Connect:bornier3" H 8550 4175 60  0001 C CNN
+F 3 "" H 8550 4175 60  0000 C CNN
+F 4 "TE" H 8600 4125 60  0001 C CNN "Manf"
+F 5 "796949-3" H 8600 4125 60  0001 C CNN "Manf#"
+F 6 "796949-3-ND" H 8600 4125 60  0001 C CNN "Digikey#"
+	1    8600 4125
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 57A99A1E
+P 6100 4725
+F 0 "R1" V 6000 4725 50  0000 C CNN
+F 1 "2K7" V 6200 4725 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 6100 4725 60  0001 C CNN
+F 3 "" H 6100 4725 60  0000 C CNN
+F 4 "Stackpole" H 6100 4725 60  0001 C CNN "Manf"
+F 5 "CF14JT2K70" H 6100 4725 60  0001 C CNN "Manf#"
+F 6 "CF14JT2K70TR-ND" H 6100 4725 60  0001 C CNN "Digikey#"
+	1    6100 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 57A99D8A
+P 6650 4175
+F 0 "R2" V 6450 4175 50  0000 C CNN
+F 1 "330R" V 6550 4175 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 6650 4175 60  0001 C CNN
+F 3 "" H 6650 4175 60  0000 C CNN
+F 4 "Stackpole" H 6650 4175 60  0001 C CNN "Manf"
+F 5 "CF14JT330R" H 6650 4175 60  0001 C CNN "Manf#"
+F 6 "CF14JT330RCT-ND" H 6650 4175 60  0001 C CNN "Digikey#"
+	1    6650 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3575 6650 3525
+Wire Wire Line
+	6650 4025 6650 3975
+Wire Wire Line
+	6350 4725 6250 4725
+NoConn ~ 4525 4825
+$Comp
+L D D1
+U 1 1 57A98FED
+P 6900 4075
+F 0 "D1" H 6900 4175 40  0000 C CNN
+F 1 "1N4148" H 6900 3975 40  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6900 4075 60  0001 C CNN
+F 3 "" H 6900 4075 60  0000 C CNN
+F 4 "Fairchild" H 6900 4075 60  0001 C CNN "Manf"
+F 5 "1N4148TR" H 6900 4075 60  0001 C CNN "Manf#"
+F 6 "1N4148FSTR-ND" H 6900 4075 60  0001 C CNN "Digikey#"
+	1    6900 4075
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

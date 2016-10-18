@@ -1,0 +1,8 @@
+Historial de cambios realizados 
+================================
+
+* Fecha: 18 Octubre de 2016
+* Autores:  Diego Brengi
+* Archivos: .kicad_pc *.sch *.pretty *.3dshapes
+* Descripción: 
+               Se arma El poncho Rele1x desde cero para el CAPSE3D.

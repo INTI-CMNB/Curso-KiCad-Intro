@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:device
+LIBS:power
 LIBS:rele1x-cache
 EELAYER 25 0
 EELAYER END
@@ -150,25 +150,9 @@ Wire Wire Line
 	6900 3375 6900 3925
 Connection ~ 6900 3525
 Wire Wire Line
-	8250 4225 8100 4225
-Wire Wire Line
-	8100 4225 8100 4375
-Wire Wire Line
-	8100 4375 7550 4375
-Wire Wire Line
 	7550 4375 7550 4225
 Wire Wire Line
-	8250 3825 8250 3625
-Wire Wire Line
-	8250 3625 7500 3625
-Wire Wire Line
 	7500 3625 7500 3825
-Wire Wire Line
-	8250 4025 8100 4025
-Wire Wire Line
-	8100 4025 8100 3725
-Wire Wire Line
-	8100 3725 7600 3725
 Wire Wire Line
 	7600 3725 7600 3825
 NoConn ~ 3325 3625
@@ -327,4 +311,22 @@ F 6 "1N4148FSTR-ND" H 6900 4075 60  0001 C CNN "Digikey#"
 	1    6900 4075
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	7500 3625 8150 3625
+Wire Wire Line
+	8250 3825 8150 3825
+Wire Wire Line
+	8150 3825 8150 3625
+Wire Wire Line
+	7550 4375 7950 4375
+Wire Wire Line
+	7950 4375 7950 4025
+Wire Wire Line
+	7950 4025 8250 4025
+Wire Wire Line
+	7600 3725 8050 3725
+Wire Wire Line
+	8050 3725 8050 4225
+Wire Wire Line
+	8050 4225 8250 4225
 $EndSCHEMATC

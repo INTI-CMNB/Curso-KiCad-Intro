@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name optos6x)(type KiCad)(uri "$(KIPRJMOD)/optos6x.pretty")(options "")(descr ""))
+)

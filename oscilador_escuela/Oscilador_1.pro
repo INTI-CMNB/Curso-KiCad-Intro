@@ -1,0 +1,23 @@
+update=jue 28 jun 2018 00:12:59 -03
+last_client=kicad
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=conn
+LibName2=cmos4000
+LibName3=device
+LibName4=power
+LibName5=mechanical

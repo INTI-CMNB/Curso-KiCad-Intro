@@ -1,0 +1,142 @@
+EESchema Schematic File Version 4
+LIBS:tourk5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Kicad Tour K5"
+Date "2018-08-31"
+Rev "1"
+Comp "Diego Brengi - Diseño de PCB - CESE"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5B86992C
+P 6100 4150
+F 0 "R1" H 6030 4104 50  0000 R CNN
+F 1 "100K" H 6030 4195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6030 4150 50  0001 C CNN
+F 3 "~" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5B869984
+P 5600 3950
+F 0 "C1" V 5760 3950 50  0000 C CNN
+F 1 "100nF" V 5851 3950 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5638 3800 50  0001 C CNN
+F 3 "~" H 5600 3950 50  0001 C CNN
+	1    5600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5B8823B4
+P 4700 4150
+F 0 "J1" H 4650 3900 50  0000 L CNN
+F 1 "Conn_01x03" H 4300 3800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4700 4150 50  0001 C CNN
+F 3 "~" H 4700 4150 50  0001 C CNN
+	1    4700 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3950 4950 4050
+Wire Wire Line
+	4950 4050 4900 4050
+Wire Wire Line
+	4900 4250 4950 4250
+Wire Wire Line
+	4950 4250 4950 4400
+$Comp
+L Device:D_ALT D2
+U 1 1 5B882C4E
+P 5600 4400
+F 0 "D2" H 5600 4276 50  0000 C CNN
+F 1 "1N4148" H 5600 4185 50  0000 C CNN
+F 2 "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" H 5600 4400 50  0001 C CNN
+F 3 "~" H 5600 4400 50  0001 C CNN
+	1    5600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3950 5850 3950
+Wire Wire Line
+	6100 3950 6100 4000
+Wire Wire Line
+	6100 4300 6100 4400
+Wire Wire Line
+	6100 4400 5750 4400
+Wire Wire Line
+	4950 4400 5450 4400
+Wire Wire Line
+	4950 3950 5300 3950
+Wire Wire Line
+	5450 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 3950
+Connection ~ 5300 3950
+Wire Wire Line
+	5300 3950 5450 3950
+Wire Wire Line
+	5750 3700 5850 3700
+Wire Wire Line
+	5850 3700 5850 3950
+Connection ~ 5850 3950
+Wire Wire Line
+	5850 3950 6100 3950
+Text Notes 4600 3650 0    50   ~ 10
+CIRCUITO EXPERIMENTAL
+Wire Notes Line
+	6150 4000 6200 3750
+Wire Notes Line
+	6200 3750 6350 3750
+Text Notes 6100 3750 0    50   ~ 10
+RESISTOR\nSERIE
+$Comp
+L Device:LED_ALT D1
+U 1 1 5B8837A1
+P 5600 3700
+F 0 "D1" H 5650 3450 50  0000 C CNN
+F 1 "LED ROJO 3mm" H 5400 3550 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 5600 3700 50  0001 C CNN
+F 3 "~" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4900 4150
+$Comp
+L Device:R R2
+U 1 1 5B8ECDC7
+P 6450 4150
+F 0 "R2" H 6380 4104 50  0000 R CNN
+F 1 "100K" H 6380 4195 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6380 4150 50  0001 C CNN
+F 3 "~" H 6450 4150 50  0001 C CNN
+	1    6450 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3950 6450 3950
+Wire Wire Line
+	6450 3950 6450 4000
+Connection ~ 6100 3950
+Wire Wire Line
+	6100 4400 6450 4400
+Wire Wire Line
+	6450 4400 6450 4300
+Connection ~ 6100 4400
+Wire Notes Line
+	6500 4000 6550 3750
+Wire Notes Line
+	6550 3750 6750 3750
+Text Notes 6450 3750 0    50   ~ 10
+AGREGADO
+$EndSCHEMATC

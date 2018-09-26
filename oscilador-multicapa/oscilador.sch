@@ -1,0 +1,285 @@
+EESchema Schematic File Version 4
+LIBS:Oscilador_1-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "OSCILIADOR CON 40106 Y DOS LEDS - OSCILADOR"
+Date "2018-06-16"
+Rev ""
+Comp "Taller de Electrónica - UNLaM"
+Comment1 "Autor: Diego Brengi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR01
+U 1 1 5B295437
+P 4850 2550
+F 0 "#PWR01" H 4850 2400 50  0001 C CNN
+F 1 "+5V" H 4850 2690 50  0000 C CNN
+F 2 "" H 4850 2550 50  0001 C CNN
+F 3 "" H 4850 2550 50  0001 C CNN
+	1    4850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5B29543D
+P 4350 4750
+F 0 "#PWR02" H 4350 4500 50  0001 C CNN
+F 1 "GND" H 4350 4600 50  0000 C CNN
+F 2 "" H 4350 4750 50  0001 C CNN
+F 3 "" H 4350 4750 50  0001 C CNN
+	1    4350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:40106 U201
+U 1 1 5B295443
+P 4850 3550
+AR Path="/5B295443" Ref="U201"  Part="1" 
+AR Path="/5B29485D/5B295443" Ref="U201"  Part="1" 
+F 0 "U201" H 4950 3700 50  0000 L CNN
+F 1 "40106" H 4900 3400 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 3550 60  0001 C CNN
+F 3 "" H 4850 3550 60  0001 C CNN
+	1    4850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:40106 U201
+U 2 1 5B29544A
+P 4900 5500
+AR Path="/5B29544A" Ref="U201"  Part="2" 
+AR Path="/5B29485D/5B29544A" Ref="U201"  Part="2" 
+F 0 "U201" H 5000 5650 50  0000 L CNN
+F 1 "40106" H 4950 5350 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4900 5500 60  0001 C CNN
+F 3 "" H 4900 5500 60  0001 C CNN
+	2    4900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:40106 U201
+U 3 1 5B295451
+P 6200 5500
+AR Path="/5B295451" Ref="U201"  Part="3" 
+AR Path="/5B29485D/5B295451" Ref="U201"  Part="3" 
+F 0 "U201" H 6300 5650 50  0000 L CNN
+F 1 "40106" H 6250 5350 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6200 5500 60  0001 C CNN
+F 3 "" H 6200 5500 60  0001 C CNN
+	3    6200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:C C202
+U 1 1 5B295458
+P 5250 2750
+F 0 "C202" H 5275 2850 50  0000 L CNN
+F 1 "0.1u" H 5275 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 2600 50  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+	1    5250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:CP C201
+U 1 1 5B29545F
+P 4350 4550
+F 0 "C201" H 4375 4650 50  0000 L CNN
+F 1 "1uF" H 4375 4450 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder" H 4388 4400 50  0001 C CNN
+F 3 "" H 4350 4550 50  0001 C CNN
+	1    4350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:R R201
+U 1 1 5B295466
+P 4850 4050
+F 0 "R201" V 4930 4050 50  0000 C CNN
+F 1 "100k" V 4750 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 4050 50  0001 C CNN
+F 3 "" H 4850 4050 50  0001 C CNN
+	1    4850 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Oscilador_1-rescue:R R202
+U 1 1 5B29546D
+P 4850 4450
+F 0 "R202" V 4930 4450 50  0000 C CNN
+F 1 "180k" V 4750 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 4450 50  0001 C CNN
+F 3 "" H 4850 4450 50  0001 C CNN
+	1    4850 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Oscilador_1-rescue:D D201
+U 1 1 5B295474
+P 5300 4050
+F 0 "D201" H 5300 4150 50  0000 C CNN
+F 1 "1N4148" H 5300 3950 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 4050 50  0001 C CNN
+F 3 "" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:D D202
+U 1 1 5B29547B
+P 5300 4450
+F 0 "D202" H 5300 4550 50  0000 C CNN
+F 1 "1N4148" H 5300 4350 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5300 4450 50  0001 C CNN
+F 3 "" H 5300 4450 50  0001 C CNN
+	1    5300 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Oscilador_1-rescue:CONN_01X02 J201
+U 1 1 5B295482
+P 4350 2750
+F 0 "J201" H 4300 2900 50  0000 C CNN
+F 1 "Conn_01x02" H 4350 2550 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4350 2750 50  0001 C CNN
+F 3 "" H 4350 2750 50  0001 C CNN
+	1    4350 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4050 4600 4050
+Wire Wire Line
+	4600 4050 4600 4450
+Wire Wire Line
+	4600 4450 4700 4450
+Wire Wire Line
+	4600 4250 4350 4250
+Connection ~ 4350 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	5000 4050 5150 4050
+Wire Wire Line
+	5000 4450 5150 4450
+Wire Wire Line
+	5350 3550 5700 3550
+Wire Wire Line
+	5600 4450 5450 4450
+Wire Wire Line
+	5600 3550 5600 4450
+Connection ~ 5600 3550
+Wire Wire Line
+	5450 4050 5600 4050
+Connection ~ 5600 4050
+$Comp
+L power:+5V #PWR03
+U 1 1 5B295498
+P 4800 5200
+F 0 "#PWR03" H 4800 5050 50  0001 C CNN
+F 1 "+5V" H 4800 5340 50  0000 C CNN
+F 2 "" H 4800 5200 50  0001 C CNN
+F 3 "" H 4800 5200 50  0001 C CNN
+	1    4800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5B29549E
+P 4800 5750
+F 0 "#PWR04" H 4800 5500 50  0001 C CNN
+F 1 "GND" H 4800 5600 50  0000 C CNN
+F 2 "" H 4800 5750 50  0001 C CNN
+F 3 "" H 4800 5750 50  0001 C CNN
+	1    4800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5B2954A4
+P 4850 2950
+F 0 "#PWR05" H 4850 2700 50  0001 C CNN
+F 1 "GND" H 4850 2800 50  0000 C CNN
+F 2 "" H 4850 2950 50  0001 C CNN
+F 3 "" H 4850 2950 50  0001 C CNN
+	1    4850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5200 4800 5350
+Wire Wire Line
+	4800 5750 4800 5650
+Wire Wire Line
+	4350 4750 4350 4700
+Wire Wire Line
+	4350 3550 4350 4400
+Wire Wire Line
+	5250 2600 5000 2600
+Wire Wire Line
+	5000 2600 5000 2700
+Wire Wire Line
+	5000 2700 4550 2700
+Wire Wire Line
+	5250 2900 5000 2900
+Wire Wire Line
+	5000 2900 5000 2800
+Wire Wire Line
+	5000 2800 4550 2800
+Wire Wire Line
+	4850 2950 4850 2800
+Connection ~ 4850 2800
+Wire Wire Line
+	4850 2550 4850 2700
+Connection ~ 4850 2700
+Wire Wire Line
+	6700 5500 6800 5500
+Wire Wire Line
+	5400 5500 5700 5500
+Wire Wire Line
+	5550 5500 5550 4950
+Wire Wire Line
+	5550 4950 6800 4950
+Connection ~ 5550 5500
+Text HLabel 6800 4950 2    60   Output ~ 0
+LED1
+Text HLabel 6800 5500 2    60   Output ~ 0
+LED2
+$Comp
+L power:PWR_FLAG #FLG06
+U 1 1 5B29703E
+P 4600 3000
+F 0 "#FLG06" H 4600 3095 50  0001 C CNN
+F 1 "PWR_FLAG" H 4600 3180 50  0000 C CNN
+F 2 "" H 4600 3000 50  0000 C CNN
+F 3 "" H 4600 3000 50  0000 C CNN
+	1    4600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG07
+U 1 1 5B297066
+P 4600 2500
+F 0 "#FLG07" H 4600 2595 50  0001 C CNN
+F 1 "PWR_FLAG" H 4600 2680 50  0000 C CNN
+F 2 "" H 4600 2500 50  0000 C CNN
+F 3 "" H 4600 2500 50  0000 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2500 4600 2700
+Connection ~ 4600 2700
+Wire Wire Line
+	4600 2800 4600 3000
+Connection ~ 4600 2800
+Text Label 5700 3550 0    60   ~ 0
+OSC
+Wire Wire Line
+	4400 5500 4350 5500
+Text Label 4350 5500 2    60   ~ 0
+OSC
+$EndSCHEMATC

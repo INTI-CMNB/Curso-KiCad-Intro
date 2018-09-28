@@ -5,17 +5,17 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "OSCILIADOR CON 40106 Y DOS LEDS - LEDS INDICADORES"
-Date "2018-06-16"
-Rev ""
-Comp "Taller de Electrónica - UNLaM"
+Title "OSCILIADOR CON 40106 Y DOS LEDS"
+Date "2018-09-28"
+Rev "1.0"
+Comp "Curso KiCad Multicapa"
 Comment1 "Autor: Diego Brengi"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Oscilador_1-rescue:R R302
+L resc:R R302
 U 1 1 5B294EA7
 P 5050 2900
 F 0 "R302" H 5200 3000 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5050 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:R R303
+L resc:R R303
 U 1 1 5B294EAE
 P 5800 3650
 F 0 "R303" V 5600 3650 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 5800 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Oscilador_1-rescue:R R301
+L resc:R R301
 U 1 1 5B294EB5
 P 4350 3650
 F 0 "R301" V 4150 3700 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 4350 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Oscilador_1-rescue:LED D301
+L resc:LED D301
 U 1 1 5B294EBC
 P 5050 3250
 F 0 "D301" V 5100 3100 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 5050 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Oscilador_1-rescue:BC546 Q301
+L resc:BC546 Q301
 U 1 1 5B294EC3
 P 4950 3650
 F 0 "Q301" H 5150 3725 50  0000 L CNN
@@ -115,7 +115,7 @@ $EndComp
 Wire Wire Line
 	6350 2700 6350 2750
 $Comp
-L Oscilador_1-rescue:R R304
+L resc:R R304
 U 1 1 5B294EE3
 P 6350 2900
 F 0 "R304" H 6100 3000 50  0000 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 6350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:LED D302
+L resc:LED D302
 U 1 1 5B294EEA
 P 6350 3250
 F 0 "D302" V 6350 3100 50  0000 C CNN
@@ -150,7 +150,7 @@ $EndComp
 Wire Wire Line
 	6350 3850 6350 3900
 $Comp
-L Oscilador_1-rescue:BC546 Q302
+L resc:BC546 Q302
 U 1 1 5B294EF8
 P 6250 3650
 F 0 "Q302" H 6450 3725 50  0000 L CNN

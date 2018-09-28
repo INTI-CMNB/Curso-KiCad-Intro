@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "OSCILIADOR CON 40106 Y DOS LEDS - OSCILADOR"
-Date "2018-06-16"
-Rev ""
-Comp "Taller de Electrónica - UNLaM"
+Title "OSCILIADOR CON 40106 Y DOS LEDS"
+Date "2018-09-28"
+Rev "1.0"
+Comp "Curso KiCad Multicapa"
 Comment1 "Autor: Diego Brengi"
 Comment2 ""
 Comment3 ""
@@ -37,7 +37,7 @@ F 3 "" H 4350 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:40106 U201
+L resc:40106 U201
 U 1 1 5B295443
 P 4850 3550
 AR Path="/5B295443" Ref="U201"  Part="1" 
@@ -50,7 +50,7 @@ F 3 "" H 4850 3550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:40106 U201
+L resc:40106 U201
 U 2 1 5B29544A
 P 4900 5500
 AR Path="/5B29544A" Ref="U201"  Part="2" 
@@ -63,7 +63,7 @@ F 3 "" H 4900 5500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:40106 U201
+L resc:40106 U201
 U 3 1 5B295451
 P 6200 5500
 AR Path="/5B295451" Ref="U201"  Part="3" 
@@ -76,7 +76,7 @@ F 3 "" H 6200 5500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:C C202
+L resc:C C202
 U 1 1 5B295458
 P 5250 2750
 F 0 "C202" H 5275 2850 50  0000 L CNN
@@ -87,7 +87,7 @@ F 3 "" H 5250 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:CP C201
+L resc:CP C201
 U 1 1 5B29545F
 P 4350 4550
 F 0 "C201" H 4375 4650 50  0000 L CNN
@@ -98,7 +98,7 @@ F 3 "" H 4350 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:R R201
+L resc:R R201
 U 1 1 5B295466
 P 4850 4050
 F 0 "R201" V 4930 4050 50  0000 C CNN
@@ -109,7 +109,7 @@ F 3 "" H 4850 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Oscilador_1-rescue:R R202
+L resc:R R202
 U 1 1 5B29546D
 P 4850 4450
 F 0 "R202" V 4930 4450 50  0000 C CNN
@@ -120,7 +120,7 @@ F 3 "" H 4850 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Oscilador_1-rescue:D D201
+L resc:D D201
 U 1 1 5B295474
 P 5300 4050
 F 0 "D201" H 5300 4150 50  0000 C CNN
@@ -131,7 +131,7 @@ F 3 "" H 5300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:D D202
+L resc:D D202
 U 1 1 5B29547B
 P 5300 4450
 F 0 "D202" H 5300 4550 50  0000 C CNN
@@ -142,7 +142,7 @@ F 3 "" H 5300 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Oscilador_1-rescue:CONN_01X02 J201
+L resc:CONN_01X02 J201
 U 1 1 5B295482
 P 4350 2750
 F 0 "J201" H 4300 2900 50  0000 C CNN
@@ -155,7 +155,7 @@ $EndComp
 Wire Wire Line
 	4700 4050 4600 4050
 Wire Wire Line
-	4600 4050 4600 4450
+	4600 4050 4600 4250
 Wire Wire Line
 	4600 4450 4700 4450
 Wire Wire Line
@@ -167,11 +167,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 4450 5150 4450
 Wire Wire Line
-	5350 3550 5700 3550
+	5350 3550 5600 3550
 Wire Wire Line
 	5600 4450 5450 4450
 Wire Wire Line
-	5600 3550 5600 4450
+	5600 3550 5600 4050
 Connection ~ 5600 3550
 Wire Wire Line
 	5450 4050 5600 4050
@@ -216,19 +216,19 @@ Wire Wire Line
 Wire Wire Line
 	4350 4750 4350 4700
 Wire Wire Line
-	4350 3550 4350 4400
+	4350 3550 4350 4250
 Wire Wire Line
 	5250 2600 5000 2600
 Wire Wire Line
 	5000 2600 5000 2700
 Wire Wire Line
-	5000 2700 4550 2700
+	5000 2700 4850 2700
 Wire Wire Line
 	5250 2900 5000 2900
 Wire Wire Line
 	5000 2900 5000 2800
 Wire Wire Line
-	5000 2800 4550 2800
+	5000 2800 4850 2800
 Wire Wire Line
 	4850 2950 4850 2800
 Connection ~ 4850 2800
@@ -238,7 +238,7 @@ Connection ~ 4850 2700
 Wire Wire Line
 	6700 5500 6800 5500
 Wire Wire Line
-	5400 5500 5700 5500
+	5400 5500 5550 5500
 Wire Wire Line
 	5550 5500 5550 4950
 Wire Wire Line
@@ -282,4 +282,22 @@ Wire Wire Line
 	4400 5500 4350 5500
 Text Label 4350 5500 2    60   ~ 0
 OSC
+Wire Wire Line
+	4350 4250 4350 4400
+Wire Wire Line
+	4600 4250 4600 4450
+Wire Wire Line
+	5600 3550 5700 3550
+Wire Wire Line
+	5600 4050 5600 4450
+Wire Wire Line
+	4850 2800 4600 2800
+Wire Wire Line
+	4850 2700 4600 2700
+Wire Wire Line
+	5550 5500 5700 5500
+Wire Wire Line
+	4600 2700 4550 2700
+Wire Wire Line
+	4600 2800 4550 2800
 $EndSCHEMATC

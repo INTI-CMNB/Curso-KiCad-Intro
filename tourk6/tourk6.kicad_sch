@@ -409,7 +409,7 @@
     (uuid ada24e41-1fbe-46a1-b443-9a8a24faea53)
     (property "Reference" "D2" (id 0) (at 99.06 74.93 0))
     (property "Value" "1n4148" (id 1) (at 99.06 77.47 0))
-    (property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal" (id 2) (at 99.06 81.28 0)
+    (property "Footprint" "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal" (id 2) (at 99.06 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 99.06 81.28 0)
@@ -477,7 +477,7 @@
       (reference "D1") (unit 1) (value "LED 3mm rojo") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/ada24e41-1fbe-46a1-b443-9a8a24faea53"
-      (reference "D2") (unit 1) (value "1n4148") (footprint "Diode_THT:D_A-405_P7.62mm_Horizontal")
+      (reference "D2") (unit 1) (value "1n4148") (footprint "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal")
     )
     (path "/c7e61b09-b828-49fa-9de0-37f5b6077b27"
       (reference "J1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
